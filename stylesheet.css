@@ -1,4 +1,6 @@
+
 /* Global Styles */
+
 * {
     margin: 0;
     padding: 0px;
@@ -10,6 +12,7 @@
   }
   
   /* Header Styles (Section 1)*/
+
   header {
     display: flex;
     justify-content: space-between;
@@ -93,6 +96,7 @@
   }
 
 /* Random Section Styles (Section 3)*/
+
 .random-section {
   font-family: Verdana, Tahoma, sans-serif;
   text-align: center;
@@ -161,4 +165,35 @@
 	font-size: 16px;
 	font-weight: bold;
 	color: #1F2937;
+}
+
+/* Footer (Section 5) */
+
+footer {
+  background-color: #3882F6;
+  color: #FFFFFF;
+  font-size: 16px; 
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.left-side h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.right-side .sign-up-btn {
+  border: 1px solid #FFFFFF;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3882F6;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 5px;
 }
