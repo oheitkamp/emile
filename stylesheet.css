@@ -91,3 +91,51 @@
     max-width: 400px;
     border-radius: 8px;
   }
+
+/* Random Section Styles (Section 3)*/
+.random-section {
+  text-align: center;
+  color: #1f2937;
+  background-color: #e5e7eb;
+  padding: 48px;
+}
+
+.random-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.random-box {
+  flex: 1;
+  margin: 0 16px;
+  border: 2px solid #3882f6;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.random-box img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+.random-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.random-rowbox p {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 16px;
+  margin-top: -10px;
+}
+
+.random-rowbox {
+  flex: 1;
+  margin: 0 16px;
+  border-radius: 0;
+  padding: 0;
+  text-align: center;
+}
