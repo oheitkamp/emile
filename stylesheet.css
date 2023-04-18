@@ -94,6 +94,7 @@
 
 /* Random Section Styles (Section 3)*/
 .random-section {
+  font-family: Verdana, Tahoma, sans-serif;
   text-align: center;
   color: #1f2937;
   background-color: #e5e7eb;
@@ -138,4 +139,26 @@
   border-radius: 0;
   padding: 0;
   text-align: center;
+}
+
+/* Attributed Quote (Section 4) */
+
+.quote-body {
+  font-family: Verdana, Tahoma, sans-serif;
+	text-align: center;
+  color: #1f2937;
+  background-color: #e5e7eb;
+  padding: 48px;
+}
+
+.quote h1 {
+	font-size: 36px;
+	font-style: italic;
+	color: #1F2937;
+}
+
+.quote p {
+	font-size: 16px;
+	font-weight: bold;
+	color: #1F2937;
 }
