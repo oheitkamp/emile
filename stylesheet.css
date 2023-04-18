@@ -1,0 +1,138 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 16px;
+  }
+  
+  .header-logo p {
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 700;
+  }
+  
+  .header-nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .header-nav li:not(:last-child) {
+    margin-right: 16px;
+  }
+  
+  .header-nav a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  /* cta section styles */
+
+  .cta-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 64px;
+  }
+  
+  .cta-content {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .cta-content h2 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    color: #e5e7eb;
+  }
+
+  .cta-content p {
+    font-size: 18px;
+    margin-bottom: 0px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+  }
+
+  button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 16px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .cta-image {
+    flex: 1;
+    max-width: 50%;
+    text-align: right;
+  }
+  
+  .cta-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+
+/* Random Section Styles */
+.random-section {
+    text-align: center;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    padding: 48px;
+  }
+  
+  .random-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .random-box {
+    flex: 1;
+    margin: 0 16px;
+    border: 1px solid #3882f6;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .random-box p {
+    font-size: 16px;
+  }
+
+  .random-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+  }
+
+  .random-rowbox p {
+    font-size: 14px;
+    margin-top: -10px;
+  }
+
+  .random-rowbox {
+    flex: 1;
+    margin: 0 16px;
+    border-radius: 0;
+    padding: 0;
+    text-align: center;
+  }
